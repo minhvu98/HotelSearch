@@ -1,0 +1,11 @@
+spring:
+  cloud:
+    config:
+      uri:
+      - http://test-config-server.hahalolo.com
+  application:
+    name: hotel
+  profiles:
+  - test
+  main:
+    allow-bean-definition-overriding: true
